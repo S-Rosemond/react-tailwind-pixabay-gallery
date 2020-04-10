@@ -6,7 +6,6 @@ const Display = () => {
 	const [ images, setImages ] = useState([]);
 	const [ isLoading, setIsLoading ] = useState(true);
 	const [ term, setTerm ] = useState('');
-	const pixabayUrl = 'https://pixabay.com/api/';
 
 	useEffect(
 		() => {
